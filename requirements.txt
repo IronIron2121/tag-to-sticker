@@ -1,0 +1,15 @@
+matplotlib
+numpy
+opencv-python
+Pillow
+torch
+torchvision
+supervision
+jupyter
+jupyter_core
+ipykernel
+nbclassic
+gradio_client
+requests
+pandas
+
