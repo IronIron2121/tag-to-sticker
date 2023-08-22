@@ -8,7 +8,7 @@ notif("NOW INSTALLING REQUIREMENTS")
 os.system('python -m pip --verbose install -r requirements.txt')
 
 notif("NOW SETTING UP GROUNDINGDINO")
-os.system('python -m pip install -e setups/segment_anything setups/GroundingDINO')
+os.system('python -m pip install -e models/segment_anything models/GroundingDINO')
 
 notif("NOW SETTING UP TORCH DIFFUSERS")
 os.system('python -m pip install --upgrade diffusers[torch]')
